@@ -1,0 +1,57 @@
+# Ignore ArcGIS system folders
+.backups/
+GpMessages/
+ImportLog/
+
+# Ignore lock files
+*.lock
+*.lck
+
+# Ignore ArcGIS Pro backup and index files
+*.aprx~*
+*.atbx~*
+*.bak
+*.xml
+*.lock
+*.index/
+
+# Ignore geodatabase backups and unnecessary files
+*.gdb.backup
+*.gdbtable
+*.gdbindexes
+*.gdbtablx
+*.spx
+*.freelist
+*.mapx
+
+# Ignore auxiliary files
+*.aux.xml
+*.log
+*.tmp
+*.tif.aux.xml
+
+# Ignore thumbnail and cache files
+*.tmb
+*.cache
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore zipped or exported files (optional)
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Ignore Python or Jupyter generated files (if any)
+__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+
+# Ignore VSCode settings (if you're using VSCode)
+.vscode/
+
+# Optional: Ignore full geodatabase files if you want to upload only code and documentation
+#*.gdb/
